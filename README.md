@@ -1,12 +1,22 @@
-# Employee Data Analysis – Excel
+# 📊 Employee Insights – Excel Data Analysis
 
 ## 📌 Project Overview
 
-This project focuses on analyzing employee data using **Microsoft Excel**. The objective is to build an employee dataset and use Excel formulas and functions to generate useful HR insights.
+**Employee Insights** is an Excel-based data analysis project created to analyze employee information and generate useful HR insights.
 
-## 📊 Dataset
+The project contains an employee dataset and an analysis sheet with formula-based answers to common HR and workforce-related questions.
 
-The dataset contains **30 employee records** with the following information:
+The main objective of this project is to practice **Excel data analysis, functions, formulas, data formatting, and supporting calculations**.
+
+---
+
+## 📂 Workbook Structure
+
+The workbook contains two worksheets:
+
+### 1. Employees
+
+The **Employees** sheet contains 30 employee records with the following fields:
 
 * Employee ID
 * First Name
@@ -15,33 +25,58 @@ The dataset contains **30 employee records** with the following information:
 * Position
 * Hire Date
 * Salary
-* Full-Time Status
+* Full-Time
 
-## 🔍 Analysis Performed
+The dataset contains employees from different departments and positions with different salary ranges, hiring dates, and employment statuses.
 
-The following business questions were analyzed:
+### 2. Analysis
+
+The **Analysis** sheet contains analytical questions and formula-based results.
+
+The analysis includes:
+
+* Average salary by department
+* Employees hired within the last 12 months
+* Total salary expense for full-time employees
+* Employee count by position
+* Median salary
+* Highest salary
+* Lowest salary
+* Overall average salary
+* Total number of full-time employees
+* Number of employees in the IT department
+
+---
+
+## 🔍 Business Questions
+
+The following questions were analyzed in the workbook:
 
 1. Which department has the highest average salary?
 2. How many employees were hired in the last 12 months?
 3. What is the total salary expense for full-time employees?
 4. Which position has the most employees?
-5. What is the median salary across the company?
+5. What is the median salary?
 6. What is the highest salary?
 7. What is the lowest salary?
 8. What is the average salary across the company?
 9. How many full-time employees are there?
-10. How many employees are working in the IT department?
+10. How many employees are in the IT department?
+
+---
 
 ## 🛠️ Excel Functions Used
 
+The project uses several Excel functions for data analysis:
+
+* `AVERAGE`
 * `AVERAGEIFS`
+* `COUNTIF`
 * `COUNTIFS`
 * `SUMIFS`
 * `MEDIAN`
 * `MAX`
 * `MIN`
-* `AVERAGE`
-* `COUNTIF`
 * `INDEX`
 * `MATCH`
 * `YEAR`
@@ -52,33 +87,71 @@ The following business questions were analyzed:
 * `UNIQUE`
 * `SORT`
 
-## 📈 Excel Features Used
+---
+
+## 📈 Supporting Calculations
+
+Additional calculations were created in the **Analysis** sheet, including:
+
+* Average salary by department
+* Employee count by position
+* Year of hire
+* Employee tenure in years
+* Full employee name
+
+These supporting calculations help organize the data and make the analysis easier to understand.
+
+---
+
+## 🎨 Excel Features Used
+
+The workbook also demonstrates:
 
 * Excel Tables
+* Freeze Panes
 * Conditional Formatting
 * Currency Formatting
 * Date Formatting
-* Freeze Panes
 * Wrap Text
-* Supporting Calculations
-* Data Analysis using formulas
+* AutoFit Columns
+* Borders
+* Supporting calculations
+* Formula-based analysis
 
-## 📁 Workbook Structure
+Salaries above the overall average are highlighted using **Conditional Formatting**.
 
-### Employees Sheet
+Dates are formatted as:
 
-Contains the complete employee dataset with personal and employment details.
+`dd-mmm-yyyy`
 
-### Analysis Sheet
+Salary values are formatted as currency.
 
-Contains analytical questions, formula-based results, and supporting calculations such as average salary by department, year of hire, employee tenure, and position counts.
+---
 
-## 🎯 Objective
+## 🎯 Project Objective
 
-The main objective of this task is to practice Excel data analysis and understand how spreadsheet functions can be used to generate meaningful insights for HR decision-making.
+The objective of this project is to demonstrate how **Microsoft Excel can be used to transform employee data into meaningful information** using formulas, functions, formatting, and basic analytical techniques.
 
-## 📂 File
+This project is part of my **Data Science / Excel learning journey** and helped me strengthen my practical skills in data analysis using Excel.
+
+---
+
+## 📁 File
 
 **Employee_Insights.xlsx**
 
-This project was completed as part of my **Excel/Data Science learning journey**.
+---
+
+## 💻 Tools Used
+
+* Microsoft Excel
+* Excel Formulas & Functions
+* Data Analysis
+* Conditional Formatting
+* Excel Tables
+
+---
+
+## 👩‍💻 Skills Demonstrated
+
+**Excel | Data Analysis | Data Cleaning & Formatting | Excel Functions | HR Analytics | Business Analysis**
